@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
 <body>
   <header class="header">
@@ -52,13 +51,30 @@
         <label for="">SQL</label><input type="checkbox" class="subject" value="SQL">
         <label for="">Phyton</label> <input type="checkbox" class="subject" value="Python">
       </div>
+      <fieldset class="avaliacao">
+        <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
+        <div>
+          <input type="radio" name="rate" id="" value="1" />
+          <input type="radio" name="rate" id="" value="2" />
+          <input type="radio" name="rate" id="" value="3" />
+          <input type="radio" name="rate" id="" value="4" />
+          <input type="radio" name="rate" id="" value="5" />
+          <input type="radio" name="rate" id="" value="6" />
+          <input type="radio" name="rate" id="" value="7" />
+          <input type="radio" name="rate" id="" value="8" />
+          <input type="radio" name="rate" id="" value="9" />
+          <input type="radio" name="rate" id="" value="10" />
+        </div>
+      </fieldset>
       <label class="textarea" for="">Deixe seu comentário:</label>
       <div>
-        <textarea name="textarea" id="" cols="20" rows="10" maxlength="500"></textarea>
-        <button id="submit-btn" type="submit">Enviar</button>
+        <textarea name="textarea" id="" cols="20" rows="10" maxlength="500"></textarea> 
       </div>
-      
-      
+      <fieldset>
+        <label id="label-infos" for="">"Você concorda com o uso das informações acima?"</label>
+        <input id="agreement" type="checkbox">
+      </fieldset>
+      <button id="submit-btn" type="submit">Enviar</button>
     </form>
    
 

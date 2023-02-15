@@ -60,6 +60,9 @@ main {
 #input-email {
   flex-grow: 1;
 }
-.checkbox {
-  
+
+.avaliacao {
+  display: flex;
+  flex-direction: column;
+
 }
