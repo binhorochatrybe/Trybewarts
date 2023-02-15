@@ -39,5 +39,25 @@ main {
 
 .names {
   display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+#input-name {
+  flex-grow: 1;
+}
+
+#input-lastname {
+  flex-grow: 1;
+}
+
+.houses {
+  display: flex;
+  gap: 10px;
+  
+}
+
+#input-email {
+  flex-grow: 1;
 }
 
