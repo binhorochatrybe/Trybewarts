@@ -1,4 +1,4 @@
-const buttonSend = document.querySelector('button');
+const buttonSend = document.querySelector('.send');
 const inputEmail = document.querySelector('input#email');
 const inputPassword = document.querySelector('input#senha');
 buttonSend.addEventListener('click', () => {
