@@ -60,3 +60,9 @@ main {
 #input-email {
   flex-grow: 1;
 }
+
+.avaliacao {
+  display: flex;
+  flex-direction: column;
+
+}
