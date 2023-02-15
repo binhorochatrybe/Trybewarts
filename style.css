@@ -6,11 +6,11 @@ button {
     display: flex;
     margin: auto;
 }
-form {
+.trybewarts-login {
     display: flex;
     order: 3;
 }
-img {
+.trybewarts-header-logo{
     display: flex;
     order: 1;
 }
@@ -20,6 +20,24 @@ h1 {
     order: 2;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-input {
+.trybewarts-login input {
     margin: auto;
 }
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-basis: 675px;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+    height: 500px;
+}
+
+.names {
+  display: flex;
+}
+
