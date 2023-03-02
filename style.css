@@ -1,27 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+
+/* */
+/* */
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  width: auto;
 }
+
 
 .send {
   display: flex;
   margin: auto;
+  border-radius: 5px;
 }
 
 .trybewarts-login {
   display: flex;
   order: 3;
+  padding-right: 10px;
+}
+
+input {
+  border-radius: 5px;
 }
 
 .trybewarts-header-logo {
   display: flex;
   order: 1;
+  width: 70px;
+  padding-left: 10px;
+  padding: 10px;
 }
 
 h1 {
   align-self: center;
   order: 2;
-  font-family: sans-serif;
+  font-family: 'Fruktur', cursive;
+  color: azure;
 }
 
 .trybewarts-login input {
@@ -30,6 +47,7 @@ h1 {
 
 main {
   display: flex;
+  padding-left: 10px;
 }
 
 #evaluation-form {
@@ -39,7 +57,9 @@ main {
 }
 
 #trybewarts-forms-logo {
-  height: 500px;
+  height: 400px;
+  align-self: center;
+  padding-left: 100px;
 }
 
 .names {
@@ -59,6 +79,7 @@ main {
 .houses {
   display: flex;
   gap: 10px;
+  padding-bottom: 4px;
 }
 
 #input-email {
@@ -68,4 +89,97 @@ main {
 .avaliacao {
   display: flex;
   flex-direction: column;
+}
+
+#family {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1px;
+  padding-top: 10px;
+}
+
+* {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.input-trybewarts-login {
+  width: 40%;
+  height: fit-content;
+  font-size: small;
+}
+
+.checkbox {
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.second-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.check {
+  width: 450px;
+  text-align: center;
+  padding-top: 9.8px;
+}
+
+#evaluation-form {
+  font-size: 14px;
+  margin-left: 100px;
+}
+#label-family, .form-labell, #label-rate, .textarea-label {
+  background-color: rgb(50, 167, 145);
+  padding: 3px;
+  border-radius: 6px;
+}
+
+.textarea-label {
+  width: 150px;
+  margin-top: 10px;
+}
+
+#label-rate {
+  width: 290px;
+  margin-bottom: 5px;
+}
+
+.form-check {
+  padding: 5px;
+  padding-left: 25px;
+}
+
+#counter {
+  width: 50px;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 10px;
+  font-size: 15px;
+  padding-left: 10px;
+  font-family: 'Harry Potter', sans-serif;      
+  justify-content: center;   
+  display: flex;             
+}
+.textarea {
+  width: 200px;
+  max-height: 100px;
+  margin-top: 10px;
+}
+#submit-btn {
+  width: 200px;
+  margin-top: 10px;
+}
+.div-icons {
+  display: flex;
+  justify-content: end;
+  padding-right: 30px;
+  padding-top: 20px;
 }
