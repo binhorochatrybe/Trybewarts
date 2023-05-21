@@ -84,11 +84,19 @@ const body = document.querySelector('body')
 const header = document.querySelector('header')
 const allInputs = document.querySelectorAll('input')
 const labels = document.querySelectorAll('label')
+const voldemort = document.querySelector('.avadakedavra')
+const logo = document.querySelector('#trybewarts-forms-logo')
+const slytherin = document.querySelector('#slytherin')
+slytherin.style.visibility = 'hidden'
+voldemort.style.visibility = 'hidden'
 icon.addEventListener('click', () => {
 if (body.style.backgroundColor === 'white') {
   body.style.backgroundColor = 'black';
   header.style.backgroundColor = '#1C1C1C';
   body.style.color = 'white';
+  voldemort.style.visibility = 'visible'
+  logo.style.visibility = 'hidden'
+  slytherin.style.visibility = 'visible'
   for (let index = 0; index < allInputs.length; index++) {
     allInputs[index].style.backgroundColor = '#808080'
   }
@@ -96,8 +104,12 @@ if (body.style.backgroundColor === 'white') {
   body.style.backgroundColor = 'white';
   header.style.backgroundColor = 'rgb(50, 167, 145)';
   body.style.color = 'black';
+  voldemort.style.visibility = 'hidden'
+  slytherin.style.visibility = 'hidden'
+  logo.style.visibility = 'visible'
   for (let index = 0; index < allInputs.length; index++) {
     allInputs[index].style.backgroundColor = 'white'
+   
   }
 }
 })

@@ -131,7 +131,7 @@ main {
   font-size: 14px;
   margin-left: 100px;
 }
-#label-family, .form-labell, #label-rate, .textarea-label {
+.textarea-label {
   background-color: rgb(50, 167, 145);
   padding: 3px;
   border-radius: 6px;
@@ -182,4 +182,19 @@ footer p {
   justify-content: end;
   padding-right: 30px;
   padding-top: 20px;
+}
+
+.avadakedavra {
+  position: absolute;
+  left: 44%;
+  bottom: 10%;
+  width: 200px;
+  height: 200px;
+}
+
+#slytherin {
+  position: absolute;
+  width: 350px;
+  height: auto;
+  left: 70%;
 }
